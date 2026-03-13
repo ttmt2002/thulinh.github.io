@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/* HEADER */
+
+header{
+    background:#0b5ed7;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+/* HERO */
+
+.hero{
+    background-image: url('./image/image_background.png');  
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff; 
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.hero h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.hero button{
+    padding:12px 25px;
+    border:none;
+    background:#ffc107;
+    font-size:18px;
+    cursor:pointer;
+    border-radius:5px;
+}
+.button_register {
+    margin-top: 100px;
+}
+
+/* SECTION */
+
+section{
+    padding:60px 10%;
+    background:white;
+    margin-bottom:10px;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#0b5ed7;
+}
+
+.about-text{
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+    line-height:1.6;
+}
+
+/* COURSES */
+
+.courses{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#f8f9fa;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    margin-bottom:10px;
+    color:#0b5ed7;
+}
+
+.card p{
+    margin:4px 0;
+}
+
+/* GALLERY */
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:10px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
+
+/* CONTACT */
+
+form{
+    max-width:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+}
+
+form input, form textarea{
+    margin:10px 0;
+    padding:10px;
+    font-size:16px;
+}
+
+form button{
+    padding:12px;
+    background:#0b5ed7;
+    color:white;
+    border:none;
+    font-size:16px;
+    cursor:pointer;
+}
+
+/* FOOTER */
+
+footer{
+    background:#0b5ed7;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
