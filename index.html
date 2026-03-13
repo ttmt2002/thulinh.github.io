@@ -3,155 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Trung Tâm Ngoại Ngữ Thu Linh</title>
 
-<style>
+<link rel="stylesheet" href="styles.css">
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial;
-}
-
-body{
-background:#f5f5f5;
-}
-
-/* MENU */
-
-header{
-background:#0b5ed7;
-color:white;
-padding:15px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-nav a{
-color:white;
-margin-left:20px;
-text-decoration:none;
-font-weight:bold;
-}
-
-nav a:hover{
-text-decoration:underline;
-}
-
-/* HERO */
-
-.hero{
-background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://images.unsplash.com/photo-1588072432836-e10032774350");
-background-size:cover;
-background-position:center;
-height:400px;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-color:white;
-text-align:center;
-}
-
-.hero h1{
-font-size:40px;
-margin-bottom:10px;
-}
-
-.hero button{
-padding:12px 25px;
-border:none;
-background:#ffc107;
-font-size:18px;
-cursor:pointer;
-border-radius:5px;
-}
-
-/* SECTION */
-
-section{
-padding:60px 10%;
-background:white;
-margin-bottom:10px;
-}
-
-section h2{
-text-align:center;
-margin-bottom:30px;
-color:#0b5ed7;
-}
-
-/* COURSES */
-
-.courses{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.card{
-background:#f8f9fa;
-padding:20px;
-border-radius:10px;
-text-align:center;
-box-shadow:0 2px 5px rgba(0,0,0,0.1);
-}
-
-/* GALLERY */
-
-.gallery{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:10px;
-}
-
-.gallery img{
-width:100%;
-border-radius:10px;
-}
-
-/* CONTACT */
-
-form{
-max-width:500px;
-margin:auto;
-display:flex;
-flex-direction:column;
-}
-
-form input, form textarea{
-margin:10px 0;
-padding:10px;
-font-size:16px;
-}
-
-form button{
-padding:12px;
-background:#0b5ed7;
-color:white;
-border:none;
-font-size:16px;
-cursor:pointer;
-}
-
-/* FOOTER */
-
-footer{
-background:#0b5ed7;
-color:white;
-text-align:center;
-padding:20px;
-}
-
-</style>
 </head>
 
 <body>
 
 <header>
-<h2>Thu Linh English Center</h2>
+<h2>Trung Tâm Ngoại Ngữ Thu Linh</h2>
 
 <nav>
 <a href="#home">Trang chủ</a>
@@ -161,71 +23,151 @@ padding:20px;
 </nav>
 </header>
 
+
 <!-- HERO -->
 
 <section class="hero" id="home">
-<h1>Trung Tâm Ngoại Ngữ Thu Linh</h1>
-<p>Nền tảng tiếng Anh vững chắc cho học sinh</p>
-<button onclick="scrollToContact()">Đăng ký học</button>
+
+<!-- <button class="button_register" onclick="scrollToContact()">Đăng ký học</button> -->
 </section>
+
 
 <!-- ABOUT -->
 
 <section id="about">
+
 <h2>Giới thiệu</h2>
-<p style="text-align:center;max-width:800px;margin:auto">
+
+<p class="about-text">
 
 Trung tâm Ngoại Ngữ Thu Linh do giáo viên tiếng Anh cấp 1 trực tiếp giảng dạy.
 Chuyên đào tạo tiếng Anh cho học sinh Tiểu học và THCS với phương pháp học dễ hiểu,
 giúp học sinh nắm chắc ngữ pháp và tự tin giao tiếp.
 
 </p>
+
 </section>
 
-<!-- COURSES -->
+
 
 <section id="courses">
-<h2>Khóa học</h2>
 
-<div class="courses">
-
-<div class="card">
-<h3>Tiếng Anh Tiểu Học</h3>
-<p>Dành cho học sinh lớp 1 - 5. Học từ vựng, phát âm và giao tiếp cơ bản.</p>
-</div>
-
-<div class="card">
-<h3>Tiếng Anh THCS</h3>
-<p>Dành cho học sinh lớp 6 - 9. Học ngữ pháp và luyện đề kiểm tra.</p>
-</div>
-
-<div class="card">
-<h3>Lớp Kèm Riêng</h3>
-<p>Học 1 kèm 1 dành cho học sinh cần cải thiện nhanh.</p>
-</div>
-
-</div>
-
+    <h2>Khóa học</h2>
+    
+    <div class="courses">
+    
+        <div class="card">
+        
+            <h3>Khóa 5 - Lớp 1 (Pre A1)</h3>
+            
+            <p><b>📅 Khai giảng:</b> 04/10/2025</p>
+            <p><b>👩‍🏫 Giáo viên:</b> Trương Thị Thu Linh</p>
+            <p><b>👥 Số học viên:</b> 20</p>
+            <p><b>💰 Học phí:</b> 300.000đ / tháng</p>
+            
+            <p><b>⏰ Lịch học:</b></p>
+            <p>Thứ hai: 17:30 – 19:00</p>
+            <p>Thứ bảy: 17:30 – 19:00</p>
+            <p>Chủ nhật: 9:30 – 11:00</p>
+            
+            <p><b>📚 Giáo trình:</b></p>
+            <p>Let's Begin</p>
+            <p>Let's Go 1A, 1B</p>
+            <p>Let's Go 2A, 2B</p>
+        
+        </div>
+        
+        
+        
+        <div class="card">
+        
+            <h3>Khóa 5 - Lớp 2 (A1)</h3>
+            
+            <p><b>📅 Khai giảng:</b> 04/10/2025</p>
+            <p><b>👩‍🏫 Giáo viên:</b> Trương Thị Thu Linh</p>
+            <p><b>👥 Số học viên:</b> 14</p>
+            <p><b>💰 Học phí:</b> 300.000đ / tháng</p>
+            
+            <p><b>⏰ Lịch học:</b></p>
+            <p>Thứ sáu: 17:30 – 19:00</p>
+            <p>Thứ bảy: 17:30 – 19:00</p>
+            <p>Chủ nhật: 17:30 – 19:00</p>
+            
+            <p><b>📚 Giáo trình:</b></p>
+            <p>Let's Go 3A, 3B</p>
+            <p>Let's Go 4A, 4B</p>
+        
+        </div>
+        
+        
+        
+        <div class="card">
+        
+            <h3>Khóa 5 - Lớp 3 (A1)</h3>
+            
+            <p><b>📅 Khai giảng:</b> 04/10/2025</p>
+            <p><b>👩‍🏫 Giáo viên:</b> Trương Thị Thu Linh</p>
+            <p><b>👥 Số học viên:</b> 20</p>
+            <p><b>💰 Học phí:</b> 300.000đ / tháng</p>
+            
+            <p><b>⏰ Lịch học:</b></p>
+            <p>Thứ ba: 17:30 – 19:00</p>
+            <p>Thứ bảy: 15:15 – 16:45</p>
+            <p>Chủ nhật: 15:15 – 16:45</p>
+            
+            <p><b>📚 Giáo trình:</b></p>
+            <p>Let's Go 3A, 3B</p>
+            <p>Let's Go 4A, 4B</p>
+        
+        </div>
+        
+        
+        
+        <div class="card">
+        
+            <h3>Khóa 5 - Lớp 4 (A2)</h3>
+            
+            <p><b>📅 Khai giảng:</b> 04/10/2025</p>
+            <p><b>👩‍🏫 Giáo viên:</b> Trương Thị Thu Linh</p>
+            <p><b>👥 Số học viên:</b> 19</p>
+            <p><b>💰 Học phí:</b> 300.000đ / tháng</p>
+            
+            <p><b>⏰ Lịch học:</b></p>
+            <p>Thứ tư: 17:30 – 19:00</p>
+            <p>Thứ bảy: 13:00 – 15:00</p>
+            <p>Chủ nhật: 13:00 – 15:00</p>
+            
+            <p><b>📚 Giáo trình:</b></p>
+            <p>Let's Go 5A, 5B</p>
+            <p>Let's Go 6A, 6B</p>
+            
+        </div>
+    
+    </div>
+    
 </section>
+
+
 
 <!-- GALLERY -->
 
 <section>
+
 <h2>Hình ảnh lớp học</h2>
 
 <div class="gallery">
 
-<img src="https://images.unsplash.com/photo-1509062522246-3755977927d7">
-<img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644">
-<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+<img src="./image/image_class.png">
 
 </div>
 
 </section>
 
+
+
 <!-- CONTACT -->
 
-<section id="contact">
+<!-- <section id="contact">
 
 <h2>Đăng ký học</h2>
 
@@ -241,14 +183,18 @@ giúp học sinh nắm chắc ngữ pháp và tự tin giao tiếp.
 
 </form>
 
-</section>
+</section> -->
+
+
 
 <footer>
 
 <p>© 2026 Trung Tâm Ngoại Ngữ Thu Linh</p>
-<p>Liên hệ: 0123 456 789</p>
+<p>Liên hệ: 0837 320 797</p>
+<p>Địa chỉ: 229/3, Ấp 3, Xã Hòa Phú, Huyện Châu Thành, Tỉnh Long An</p>
 
 </footer>
+
 
 <script>
 
