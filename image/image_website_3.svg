@@ -1,0 +1,168 @@
+<svg width="100%" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f4fd"/>
+      <stop offset="100%" style="stop-color:#f0faf5"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a5fa8"/>
+      <stop offset="100%" style="stop-color:#0d8a5e"/>
+    </linearGradient>
+    <linearGradient id="footerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a5fa8"/>
+      <stop offset="100%" style="stop-color:#0d8a5e"/>
+    </linearGradient>
+    <linearGradient id="discountGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a1a6e"/>
+      <stop offset="100%" style="stop-color:#2d2d8e"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700"/>
+      <stop offset="100%" style="stop-color:#ff8c00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="680" height="380" fill="url(#bgGrad)" rx="8" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- World map dots (decorative) -->
+  <g opacity="0.08" fill="#1a5fa8" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.08;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <circle cx="80" cy="80" r="2" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/><circle cx="100" cy="70" r="2" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/><circle cx="120" cy="85" r="2" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <circle cx="140" cy="75" r="2" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/><circle cx="160" cy="90" r="2" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/><circle cx="180" cy="72" r="2" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <circle cx="90" cy="100" r="2" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/><circle cx="110" cy="110" r="2" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/><circle cx="130" cy="95" r="2" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <circle cx="70" cy="120" r="2" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/><circle cx="600" cy="60" r="2" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/><circle cx="620" cy="50" r="2" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <circle cx="640" cy="65" r="2" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/><circle cx="610" cy="80" r="2" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  </g>
+
+  <!-- Header bar -->
+  <rect x="0" y="0" width="680" height="42" fill="url(#headerGrad)" rx="8" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="0" y="30" width="680" height="12" fill="url(#headerGrad)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Logo area -->
+  <circle cx="30" cy="21" r="14" fill="white" opacity="0.9" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.9;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="30" y="17" text-anchor="middle" font-size="7" font-weight="bold" fill="#1a5fa8" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:7px;font-weight:700;text-anchor:middle;dominant-baseline:auto">TRUNG</text>
+  <text x="30" y="25" text-anchor="middle" font-size="7" font-weight="bold" fill="#1a5fa8" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:7px;font-weight:700;text-anchor:middle;dominant-baseline:auto">TÂM</text>
+  <text x="55" y="16" font-size="8" fill="white" font-weight="bold" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:8px;font-weight:700;text-anchor:start;dominant-baseline:auto">TRUNG TÂM NGOẠI NGỮ</text>
+  <text x="55" y="28" font-size="9" fill="#ffd700" font-weight="bold" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:9px;font-weight:700;text-anchor:start;dominant-baseline:auto">THU LINH</text>
+
+  <!-- DO YOU SPEAK ENGLISH badge top right -->
+  <circle cx="620" cy="80" r="40" fill="#ffd700" opacity="0.95" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.95;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="620" cy="80" r="36" fill="#ff6600" opacity="0.9" style="fill:rgb(255, 102, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.9;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="620" y="68" text-anchor="middle" font-size="8" fill="white" font-weight="bold" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:8px;font-weight:700;text-anchor:middle;dominant-baseline:auto">DO YOU</text>
+  <text x="620" y="80" text-anchor="middle" font-size="10" fill="white" font-weight="bold" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:10px;font-weight:700;text-anchor:middle;dominant-baseline:auto">SPEAK</text>
+  <text x="620" y="93" text-anchor="middle" font-size="9" fill="#ffd700" font-weight="bold" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:9px;font-weight:700;text-anchor:middle;dominant-baseline:auto">English?</text>
+
+  <!-- Main title - CHIÊU SINH -->
+  <text x="22" y="80" font-size="38" font-weight="bold" fill="#ff1493" stroke="#ff69b4" stroke-width="0.5" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.3);fill:rgb(255, 20, 147);stroke:rgb(255, 105, 180);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:38px;font-weight:700;text-anchor:start;dominant-baseline:auto">CHIÊU SINH</text>
+
+  <!-- THÁNG 6 -->
+  <text x="22" y="122" font-size="36" font-weight="bold" fill="#00cc44" style="fill:rgb(0, 204, 68);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:36px;font-weight:700;text-anchor:start;dominant-baseline:auto">THÁNG 6</text>
+
+  <!-- CÁC LỚP -->
+  <text x="22" y="160" font-size="30" font-weight="bold" fill="#ff8c00" style="fill:rgb(255, 140, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:30px;font-weight:700;text-anchor:start;dominant-baseline:auto">CÁC LỚP</text>
+
+  <!-- TIẾNG ANH -->
+  <text x="22" y="198" font-size="30" font-weight="bold" fill="#cc0000" style="fill:rgb(204, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:30px;font-weight:700;text-anchor:start;dominant-baseline:auto">TIẾNG ANH</text>
+
+  <!-- Age bracket box -->
+  <rect x="210" y="78" width="175" height="70" fill="url(#goldGrad)" rx="6" opacity="0.9" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.9;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="214" y="82" width="167" height="62" fill="none" stroke="white" stroke-width="1.5" rx="4" style="fill:none;stroke:rgb(255, 255, 255);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="298" y="105" text-anchor="middle" font-size="13" font-weight="bold" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:13px;font-weight:700;text-anchor:middle;dominant-baseline:auto">TỪ 6-14 TUỔI</text>
+  <text x="298" y="123" text-anchor="middle" font-size="11" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">(LỚP 1 ĐẾN LỚP 9)</text>
+  <text x="298" y="139" text-anchor="middle" font-size="10" fill="#fff3e0" style="fill:rgb(255, 243, 224);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">● Tiểu học - THCS ●</text>
+
+  <!-- Colorful blocks -->
+  <rect x="215" y="155" width="30" height="30" fill="#3399ff" rx="4" style="fill:rgb(51, 153, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="252" y="155" width="30" height="30" fill="#33cc66" rx="4" style="fill:rgb(51, 204, 102);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="289" y="155" width="30" height="30" fill="#ff6633" rx="4" style="fill:rgb(255, 102, 51);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="326" y="155" width="30" height="30" fill="#cc33ff" rx="4" style="fill:rgb(204, 51, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <rect x="215" y="192" width="30" height="30" fill="#cc33ff" rx="4" style="fill:rgb(204, 51, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="252" y="192" width="30" height="30" fill="#ff6633" rx="4" style="fill:rgb(255, 102, 51);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="289" y="192" width="30" height="30" fill="#3399ff" rx="4" style="fill:rgb(51, 153, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="326" y="192" width="30" height="30" fill="#33cc66" rx="4" style="fill:rgb(51, 204, 102);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Teacher photo placeholder circle -->
+  <circle cx="490" cy="140" r="80" fill="white" stroke="#d4af37" stroke-width="4" opacity="0.95" style="fill:rgb(255, 255, 255);stroke:rgb(212, 175, 55);color:rgb(0, 0, 0);stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.95;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="490" cy="140" r="74" fill="#f0f8f0" stroke="#b8960c" stroke-width="1.5" style="fill:rgb(240, 248, 240);stroke:rgb(184, 150, 12);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Decorative flower/person placeholder -->
+  <circle cx="490" cy="115" r="28" fill="#ffcc88" style="fill:rgb(255, 204, 136);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <ellipse cx="490" cy="165" rx="38" ry="30" fill="#ff6600" style="fill:rgb(255, 102, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="490" cy="115" r="22" fill="#ffb866" style="fill:rgb(255, 184, 102);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Hair -->
+  <ellipse cx="490" cy="100" rx="24" ry="12" fill="#4a2800" style="fill:rgb(74, 40, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Face features -->
+  <circle cx="482" cy="113" r="2" fill="#333" style="fill:rgb(51, 51, 51);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="498" cy="113" r="2" fill="#333" style="fill:rgb(51, 51, 51);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <path d="M484 122 Q490 127 496 122" stroke="#cc6644" stroke-width="1.5" fill="none" style="fill:none;stroke:rgb(204, 102, 68);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Flowers decoration -->
+  <circle cx="460" cy="175" r="8" fill="#ff6699" style="fill:rgb(255, 102, 153);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="455" cy="168" r="5" fill="#ff99bb" style="fill:rgb(255, 153, 187);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="520" cy="172" r="6" fill="#ff6699" style="fill:rgb(255, 102, 153);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="525" cy="165" r="4" fill="#ffaacc" style="fill:rgb(255, 170, 204);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Skills icons right side -->
+  <text x="590" y="145" font-size="11" fill="#333" font-weight="bold" style="fill:rgb(51, 51, 51);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:700;text-anchor:start;dominant-baseline:auto">Listening</text>
+  <circle cx="570" cy="140" r="10" fill="#e8f4fd" stroke="#1a5fa8" stroke-width="1" style="fill:rgb(232, 244, 253);stroke:rgb(26, 95, 168);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="570" y="144" text-anchor="middle" font-size="10" fill="#1a5fa8" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">👂</text>
+
+  <text x="590" y="175" font-size="11" fill="#333" font-weight="bold" style="fill:rgb(51, 51, 51);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:700;text-anchor:start;dominant-baseline:auto">Speaking</text>
+  <circle cx="570" cy="170" r="10" fill="#e8f4fd" stroke="#1a5fa8" stroke-width="1" style="fill:rgb(232, 244, 253);stroke:rgb(26, 95, 168);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="570" y="174" text-anchor="middle" font-size="10" fill="#1a5fa8" style="fill:rgb(26, 95, 168);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">💬</text>
+
+  <text x="610" y="200" font-size="11" fill="#333" font-weight="bold" style="fill:rgb(51, 51, 51);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:700;text-anchor:start;dominant-baseline:auto">Writing</text>
+  <circle cx="590" cy="196" r="10" fill="#f0faf5" stroke="#0d8a5e" stroke-width="1" style="fill:rgb(240, 250, 245);stroke:rgb(13, 138, 94);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="590" y="200" text-anchor="middle" font-size="10" fill="#0d8a5e" style="fill:rgb(13, 138, 94);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">✏</text>
+
+  <!-- Discount bar -->
+  <rect x="0" y="228" width="680" height="55" fill="url(#discountGrad)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- 20% circle -->
+  <circle cx="108" cy="256" r="28" fill="url(#goldGrad)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="108" y="250" text-anchor="middle" font-size="14" font-weight="bold" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:14px;font-weight:700;text-anchor:middle;dominant-baseline:auto">20%</text>
+  <text x="108" y="264" text-anchor="middle" font-size="8" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:8px;font-weight:400;text-anchor:middle;dominant-baseline:auto">DISCOUNT</text>
+
+  <text x="16" y="250" font-size="12" fill="#aaaadd" style="fill:rgb(170, 170, 221);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">GIẢM GẦN</text>
+  <text x="16" y="266" font-size="10" fill="#aaaadd" opacity="0.7" style="fill:rgb(170, 170, 221);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:Arial, sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto">ưu đãi đặc biệt</text>
+
+  <text x="148" y="249" font-size="14" font-weight="bold" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:14px;font-weight:700;text-anchor:start;dominant-baseline:auto">CHO ANH CHỊ EM RUỘT</text>
+  <text x="148" y="268" font-size="13" font-weight="bold" fill="#ffd700" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:13px;font-weight:700;text-anchor:start;dominant-baseline:auto">THEO HỌC TẠI CƠ SỞ</text>
+
+  <!-- Center name bar -->
+  <rect x="0" y="283" width="680" height="40" fill="#ff6600" rx="0" style="fill:rgb(255, 102, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="340" y="309" text-anchor="middle" font-size="20" font-weight="bold" fill="white" letter-spacing="1" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:20px;font-weight:700;text-anchor:middle;dominant-baseline:auto">TRUNG TÂM NGOẠI NGỮ THU LINH</text>
+
+  <!-- Footer info bar -->
+  <rect x="0" y="323" width="680" height="57" fill="url(#footerGrad)" rx="0" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="0" y="323" width="680" height="8" fill="#ff6600" style="fill:rgb(255, 102, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Phone icon -->
+  <circle cx="28" cy="358" r="14" fill="white" opacity="0.2" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.2;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="28" y="362" text-anchor="middle" font-size="14" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:14px;font-weight:400;text-anchor:middle;dominant-baseline:auto">📞</text>
+
+  <text x="50" y="349" font-size="11" font-weight="bold" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:700;text-anchor:start;dominant-baseline:auto">Liên hệ: Cô Thu Linh</text>
+  <text x="50" y="366" font-size="13" font-weight="bold" fill="#ffd700" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:13px;font-weight:700;text-anchor:start;dominant-baseline:auto">0837 320 797</text>
+
+  <!-- Divider -->
+  <line x1="300" y1="333" x2="300" y2="375" stroke="white" stroke-width="0.5" opacity="0.4" style="fill:rgb(0, 0, 0);stroke:rgb(255, 255, 255);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Location icon -->
+  <circle cx="318" cy="358" r="14" fill="white" opacity="0.2" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.2;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="318" y="362" text-anchor="middle" font-size="14" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:14px;font-weight:400;text-anchor:middle;dominant-baseline:auto">📍</text>
+
+  <!-- ADDRESS - CORRECT -->
+  <text x="340" y="348" font-size="11" font-weight="bold" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:700;text-anchor:start;dominant-baseline:auto">229/3 Ấp 3, xã Vĩnh Công,</text>
+  <text x="340" y="367" font-size="11" font-weight="bold" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:700;text-anchor:start;dominant-baseline:auto">tỉnh Tây Ninh</text>
+
+  <!-- DO YOU SPEAK ENGLISH bottom right -->
+  <circle cx="645" cy="352" r="28" fill="#ffd700" opacity="0.95" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.95;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="645" cy="352" r="24" fill="#ff6600" style="fill:rgb(255, 102, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="645" y="345" text-anchor="middle" font-size="6" fill="white" font-weight="bold" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:6px;font-weight:700;text-anchor:middle;dominant-baseline:auto">DO YOU</text>
+  <text x="645" y="355" text-anchor="middle" font-size="7" fill="white" font-weight="bold" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:7px;font-weight:700;text-anchor:middle;dominant-baseline:auto">SPEAK</text>
+  <text x="645" y="366" text-anchor="middle" font-size="6" fill="#ffd700" font-weight="bold" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:6px;font-weight:700;text-anchor:middle;dominant-baseline:auto">English?</text>
+
+  <!-- Sparkle decorations -->
+  <text x="430" y="222" font-size="18" fill="#ffd700" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:18px;font-weight:400;text-anchor:start;dominant-baseline:auto">✦</text>
+  <text x="450" y="210" font-size="12" fill="#ffd700" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">✦</text>
+  <text x="415" y="210" font-size="10" fill="#ffd700" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto">✦</text>
+</svg>
